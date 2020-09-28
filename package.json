@@ -1,0 +1,25 @@
+{
+  "name": "dropbox-pipe",
+  "version": "1.0.0",
+  "description": "Streams stdin data to a path in your Dropbox",
+  "bin": {
+    "dropbox-pipe": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Jonas van den Berg",
+    "email": "24623262+vonas@users.noreply.github.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vonas/dropbox-pipe.git"
+  },
+  "dependencies": {
+    "async-exit-hook": "^2.0.1",
+    "dropbox-v2-api": "^2.4.27",
+    "yargs": "^16.0.3"
+  }
+}
